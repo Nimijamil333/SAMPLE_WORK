@@ -1,0 +1,150 @@
+.nav{
+ background-color: black;
+}
+.text{
+color: black;
+}
+.text2{
+    color: white;
+    }
+.border-bottom{
+    color: black;
+}
+.nav3{
+display: inline-flex;
+
+}
+.mainnav{
+    display: flex;
+    background-attachment: fixed;
+}
+/* .image{
+    position: absolute;
+    top: 31%;
+    height:60%;
+    width: 100%;
+    display: flex;
+} */
+/* nav-justify-content-center{
+    display: inline;
+} */
+#navbarSupportedContent{
+    position:absolute;
+    left:30%;
+    right:20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    
+
+}
+.navbar-brand_mb-0_h1{
+    background-color: thistle;
+}
+#o{
+    
+height: 10%;
+width: 10%;
+margin-right: 2%;
+margin-left: 2%;
+opacity: 0.6;
+justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 0px;
+    width: 16.6667%;
+    margin: 0px;
+    padding: 10px;
+    align-self: stretch;
+    z-index: -1
+}   
+
+
+@media screen and (max-width:992px){
+    .searchdiv{
+         max-width:50% ;
+        
+    }
+    @media screen and (max-width:750px) {
+        #navbarSupportedContent{
+            width: 20px;
+        }
+               
+    }
+    @media screen and (max-width:400px) {
+        #navbarSupportedContent{
+            position: absolute;
+            top: 10%;
+            bottom: 80%;
+            width: 20px;
+        }
+        @media screen and(max-width: 400px){
+        .navbar-brand_mb-0_h1 p {
+            font-size:14px;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+        }}
+        @media only screen and (min-width: 600px) {
+        
+            .image{
+                /* position: absolute;
+                top:30%;
+                bottom: 50%; */
+                height: 200px;
+                width: 200px;
+                display: flex;
+            }
+            
+        }
+        @media only screen and (max-width: 600px) {
+            .image{
+                /* position: absolute;
+                top:26%;
+                bottom: 80; */
+                height: 150px;
+                width: 150px;
+                display: flex;
+            }
+            
+        }
+        @media only screen and (min-width: 768px) {
+            .image{
+                /* position: absolute;
+                top:24%;
+                bottom: 81%; */
+                height: 300px;
+                width: 300px;
+                display: flex;
+            }
+            
+        }
+        @media only screen and (min-width: 992px) {
+            .image{
+                /* position: absolute;
+                top:22%;
+                bottom: 82%; */
+                height: 400px;
+                width: 400px;
+                display: flex;
+            }
+            
+        }
+        @media only screen and (min-width: 1200px) {
+            .image{
+                /* position: absolute;
+                top:20px;
+                bottom: 85px; */
+                height: 500px;
+                width: 500px;
+                display: flex;
+            }
+            
+        }
+                        
+                        
+

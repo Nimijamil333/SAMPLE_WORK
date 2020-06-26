@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweezerman | awarded tweezer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="icon" href="data:image/png;base64,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" type="image/icon type">
+    
+</head>
+
+<body>
+
+  
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="text2" href="#">CONTACT US</a>
+        </li>
+       </ul>
+
+       <ul class="nav2">
+          <a class="text" href="#"><center> MESSAGE TO OUR COMMUNITY AND COUNTRY</center></a>
+       </ul>
+
+       <ul class="nav3" style="list-style-type: none;">
+        <div class="searchdiv">
+        <div class="input-group mb-3" style="width: 30%; height: 05%; position: absolute; top: 13%;left: 1%;";>
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><li><i class="fas 2x fa-search"></i></li></span>
+          </div>
+          <input type="text" class="form-control" placeholder="SEARCH" aria-label="SEARCH" aria-describedby="basic-addon1">
+        </div>
+      </div>
+         
+         <li><center><div class="logo"><a href="#"><img src="https://logos-download.com/wp-content/uploads/2016/05/Tweezerman_logo_logotype.png" alt="logo" style="height: 8%; width: 20%;"></center>
+         </a></li>
+         <div class="flex-container">
+            <li><a href="#"style="width: 30%; height: 05%; position: absolute; top: 13%;left:80%;color :black;";><i class="far fa-user"></i></a></li>
+         </div>
+
+         <div class="flex-container">
+          <li><a href="#"style="width: 30%; height: 05%; position: absolute; top: 13%;left:85% ;color :black;";><i class="fas fa-shopping-cart"></i></a></li>
+        </div>
+        </div>
+          
+        </ul>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">MEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">GIFT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TOP-SELLERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOW-TO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FREE-SHARPENING</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  SHOP
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">TWEEZER</a>
+                  <a class="dropdown-item" href="#">NEW ARRIVALS</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">BROWS</a>
+                  <a class="dropdown-item" href="#">LASHES</a>
+                  <a class="dropdown-item" href="#">MANICURE/PEDICURE</a>
+                  <a class="dropdown-item" href="#">GIFT</a>
+                </div>
+              </li>  
+            </ul>
+          </div>
+        </nav>
+        <div class="redeem" style="background-color: rgb(196, 189, 196); width: 100%; height:40% ;">
+            <nav class="navbar_navbar_light_bg_light"  >
+              <center><span class="navbar-brand_mb-0_h1"><p>Free Cosmetic Case with the Purchase od The 40th Anniversary Slant Tweezer code : TWTURNS40 <a href="#">REDEEM</a></p></span></center>
+            </nav>
+          </div> 
+ </div>
+ <div class="flex-container"><img src="1.jpg" alt="" style=" display:flex ;height: 60%; width: 100%;padding-top: 0%;"></div>
+ <div class="shopbycateg" style="font-family: 'Times New Roman', Times, serif;"><center><h1>SHOP BY CATEGORY </h1></center></div>
+ <table>
+<tr>
+ <td><div class="images" style="display: flex; position: absolute; top: 135%; bottom: 50%; height: 20%; width: 100%;" ></td>
+<td>  <div id="o" ><center><h3><a href="#" style="color: black;">TWEEZERS<img src="2.jpg" alt=""></a></h3></center></div></td>
+<td><div id="o"><center><h3><a href="#"style="color: black;">BROWS<img src="3.jpg" alt=""></a></h3></center></div> </td> 
+<td><div id="o"><center><h3><a href="#"style="color: black;">SKIN<img src="4.jpg" alt=""></a></h3></center></div></td>
+<td><div id="o"><center><h3><a href="#"style="color: black;">MEN<img src="5.jpg" alt=""></a></h3></center></div></td>
+<td><div id="o"><center><h3><a href="#"style="color: black;">MENI/PEDI<img src="6.jpg" alt=""></a></h3></center></div></td>
+</div>
+</tr>
+</table>
+<table>
+  <tr>
+    <td><div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></td>
+    <td><div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></td>
+    <td><div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></td>
+    <td><div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></td>
+  </tr>
+</table>
+        
+       
+</body>
+</html>
